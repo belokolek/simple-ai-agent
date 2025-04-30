@@ -138,15 +138,6 @@ The package automatically selects the best mode to generate JSON for a given pro
 
 [Tool usage][openai tools] is currently supported in Open AI, Azure, Anthropic, Bedrock, Vertex AI and Grok models. Selected [Ollama models][ollama tools] and [Together AI models][together json] also support structured response generation. For other providers and models, structured response is obtained by parsing the returned message results. This might result in a lower quality and accuracy of the structured response.
 
-### Examples
-
-- [Basic chatbot session](examples/sessions.py)
-- [Multiple chatbot sessions](examples/chatbot_session.py)
-- [Multi-agent conversation with different models](examples/multiple_agents.py)
-- [Structured responses](examples/structured_responses.py)
-- [LLM as Judge](examples/llm_judge.py)
-- [Streaming with FastAPI](examples/fastapi_stream.py)
-
 ## Development
 
 ### Poetry
